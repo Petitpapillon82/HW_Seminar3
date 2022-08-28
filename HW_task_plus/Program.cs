@@ -7,7 +7,7 @@
 Console.Clear();
 Console.WriteLine("Введите радиус круга: ");
 Console.Write("r = ");
-int r = int.Parse(Console.ReadLine());
+double r = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Найдите площадь круга.");
 double S = Math.PI * Math.Pow(r, 2); 
 double S1 = Math.Round(S, 0, MidpointRounding.AwayFromZero);
