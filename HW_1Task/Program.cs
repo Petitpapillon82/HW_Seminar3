@@ -7,7 +7,7 @@ Console.Clear();
 Console.WriteLine("Введите пятизначное число:");
 Console.Write(" ");
 /*int n = int.Parse(Console.ReadLine());
-Console.WriteLine(n.ToString()[0] == n.ToString()[4] && n.ToString()[1] == n.ToString()[3]? "Число явяется палиндромом" : "Число не является палиндромом");
-Console.ReadKey(true); - первое решение (работает, кроме случаев, если числоначинается с нуля) */
+Console.WriteLine(n.ToString()[0] == n.ToString()[4] && n.ToString()[1] == n.ToString()[3]? "Число является палиндромом" : "Число не является палиндромом");
+Console.ReadKey(true); - первое решение (работает, кроме случаев, когда число начинается с нуля) */
 string n = Console.ReadLine();
 Console.WriteLine(n[0] == n[4] && n[1] == n[3]? "Число является палиндромом" : "Число не является палиндромом");
