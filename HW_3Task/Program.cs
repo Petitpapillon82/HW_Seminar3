@@ -8,7 +8,7 @@ int n = int.Parse(Console.ReadLine());
 int i = 1; 
 while (n > 0 && i <= n)
 {
-Console.WriteLine("{0} в кубе равно 1{1}", i, Math.Pow(i, 3));
+Console.WriteLine("{0} в кубе равно {1}", i, Math.Pow(i, 3));
  i++;   
 }
 Console.WriteLine();
